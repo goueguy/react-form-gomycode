@@ -5,9 +5,51 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f2f5 !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.logo{
+  height: 106px;
+  margin: -28px;
+  float: left;
+  
+}
+.left{
+ padding: 280px 0 16px;
+}
+.text{
+  font-size: 28px;
+}
+.message{
+  width: 600px;
+  text-align: left;
+}
+.formColor{
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+.form-group{
+  margin-bottom: 10px;
+}
+.text-primary,.btn-primary{
+  border-radius: 5px !important;
+  padding: 10px !important;
+}
+.font-weight-bold{
+  font-weight: bold !important;
+}
+.border{
+  border-radius: 8px !important;
+}
+.bg-green{
+  background-color: #36a420 !important;
+}
+.bg-green:hover{
+  background-color: #36a420;
 }
